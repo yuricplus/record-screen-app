@@ -31,7 +31,7 @@ export const Recording = () => {
     setRecordLink(url)
   }
   const handleInitRecord = async() => {
-    const stream = await navigator.mediaDevices.getDisplayMedia({
+    const stream = await window.navigator.mediaDevices.getDisplayMedia({
       video: true,
       audio: true
     });
