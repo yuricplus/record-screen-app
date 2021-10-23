@@ -1,0 +1,90 @@
+section .container-record {
+  margin: 10px auto;
+  width: 1200px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+}
+
+section .container-record button.action-rec {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  color: #e15b64;
+  align-content: center;
+  height: auto;
+  border: 2px solid #e15b64;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 1s;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+section .container-record button.action-rec-second {
+  background: #e15b64;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  color: #ffffff;
+  align-content: center;
+  height: auto;
+  border: 2px solid #e15b64;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 1s;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+section .container-record video {
+  max-width: 100%;
+}
+button {
+  margin: 10px;
+}
+
+section .container-record button.action-rec .icon-around {
+  border: 1px solid #e15b64;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+section .container-record button.action-rec-second .icon-around {
+  border: 1px solid #ffffff;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+section .container-record button.action-rec div.icon-rec {
+  content: '';
+  background: #e15b64;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: all 1s;
+}
+
+section .container-record button.action-rec-second div.icon-rec-stop {
+  content: '';
+  background: #ffffff;
+  width: 20px;
+  height: 20px;
+  transition: all 1s;
+}
+
+section .container-record .btns-list {
+  display: flex;
+  justify-content: center;
+  width: 230px;
+}
